@@ -22,6 +22,9 @@ class LunchVenueProvider extends Component {
         this.setState(prevState => (prevState.isResult = false));
       } else {
         this.setState(prevState => (prevState.venueList = venueLists["data"]));
+        this.setState(
+          prevState => (prevState.participants = [{ name: "", vote: null }])
+        );
         this.setState(prevState => (prevState.isResult = true));
         this.setState(prevState => (prevState.isResultLoader = true));
       }
