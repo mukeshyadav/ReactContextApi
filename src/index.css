@@ -1,0 +1,115 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  background-color: #f7f7f7;
+  color: #1f1f1f;
+  font: normal 16px/20px Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1001px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.header {
+  padding: 40px 0;
+  font-size: 2.5rem;
+}
+
+.button {
+  background-color: #544bb4;
+  border-radius: 48px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.25rem;
+  height: 48px;
+  min-width: 250px;
+  text-align: center;
+}
+
+.button__disabled {
+  opacity: 0.5;
+}
+
+.input {
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  padding: 5px 15px;
+}
+
+.input__big {
+  font-size: 1rem;
+  height: 42px;
+}
+
+.input__block {
+  width: 100%;
+}
+
+.input__medium {
+  font-size: 1rem;
+  height: 36px;
+}
+
+.result-container {
+  border: 1px solid #e1e1e1;
+  border-top: none;
+  border-left: none;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px -1px #ccc;
+  margin: 40px 0;
+}
+
+.table {
+  width: 100%;
+}
+
+.table th,
+.table td {
+  border-left: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 5px;
+}
+
+.table tbody td {
+  background-color: #fbf5f5;
+  position: relative;
+}
+
+.table .td--title {
+  background-color: #fff;
+}
+
+.table tbody td label {
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.table .th__highlight {
+  background-color: #f2f3e1;
+}
+
+.loader {
+  color: #ccc;
+  display: block;
+  font-size: 1.5em;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.searchbar__space {
+  margin-right: 20px;
+}
