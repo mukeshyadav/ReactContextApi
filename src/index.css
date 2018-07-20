@@ -97,6 +97,22 @@ body {
   right: 0;
   top: 0;
 }
+.table tbody td label input {
+  display: none;
+}
+.table tbody td label .td__highlight {
+  background-color: #b7c848;
+  bottom: 0;
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.table tbody td label input:checked + span {
+  display: block;
+}
 
 .table .th__highlight {
   background-color: #f2f3e1;

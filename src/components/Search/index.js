@@ -12,7 +12,7 @@ export default class Search extends Component {
           <React.Fragment>
             <input
               type="text"
-              placeholder="Enter Location"
+              placeholder="Enter Location 'Chicago' "
               className="input input__big searchbar__space"
               onChange={e => this.setState({ value: e.target.value })}
             />

@@ -24,6 +24,7 @@ const TableBody = props => {
                       name={`v${i}`}
                       onChange={() => props.onVoting({ name: i, vote: x })}
                     />
+                    <span className="td__highlight" />
                   </label>
                 </td>
               );
