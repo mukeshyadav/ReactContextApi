@@ -35,10 +35,13 @@ const getVenueDetails = data => {
     const venues = response.groups[0].items.map(venue => {
       const info = {};
       info["name"] = venue.venue.name;
-      info["url"] = (venue.venue.delivery && venue.venue.delivery.url) || "";
+      info["url"] =
+        (venue.venue.delivery && venue.venue.delivery.url) ||
+        "https://en.wikipedia.org/wiki/HTTP_404";
       info["rating"] = (Math.random() * (9 - 5) + 5).toFixed(1);
       info["category"] =
-        (venue.venue.categories && venue.venue.categories[0].name) || "";
+        (venue.venue.categories && venue.venue.categories[0].name) ||
+        "Not Available";
       info["voteCount"] = 0;
       info["isWinning"] = false;
       return info;

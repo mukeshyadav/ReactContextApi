@@ -9,7 +9,9 @@ const TableHead = props => (
         return (
           <th width="22%" key={i} className={isWinning ? "th__highlight" : ""}>
             <h3>
-              <a href={url}>{name}</a>
+              <a href={url} target="_blank">
+                {name}
+              </a>
             </h3>
             <h4>{category}</h4>
             <span>{rating}</span>
