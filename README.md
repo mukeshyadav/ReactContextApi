@@ -5,5 +5,5 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## How to Use
 
-npm install
+npm install__
 npm start or yarn start
